@@ -3,8 +3,16 @@
 A collection of helper scripts for STM32 embedded development workflows.
 
 ---
+## ai/CLAUDE.md
 
-## stm32cube_to_vscode_sync.py
+General CLAUDE.md that specifies coding standard and other items that
+I personally prefer, but would be useful in other projects.
+It's a WIP. To use it, run this command to create a symlink.  Doing it 
+this way will ensure you get updates without having to re-copy.
+
+`ln -s [project_root]/ai ~/.claude/CLAUDE.md`
+
+## scripts/stm32cube_to_vscode_sync.py
 
 This was heavily AI generated.  Use for a quick sync between the STM32CubeIDE
 project file and .vscode json.
